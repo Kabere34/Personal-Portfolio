@@ -19,30 +19,41 @@ body {
 }
 .hero-section {
   /* background-color: #002c54; */
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .hero-img {
   max-width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/images/christina-wocintechchat-com-MGzmAUxx85E-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.hero-text img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 .cover-image {
-  width: 300px;
+  width: 400px;
   margin-left: 50px;
 }
 .cover-image img {
   width: 100%;
-  height: 1005;
+  height: 100%;
 }
-/* .hero-text {
+.about-me {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-} */
-.text-info {
+  justify-content: center;
+
+  background-color: rgb(145, 209, 232);
+}
+.about-text {
   width: 300px;
-  color: white;
+  margin-left: 20px;
+}
+.about-details {
+  border: 1px solid rgb(203, 208, 209);
+  margin-top: 20px;
 }
