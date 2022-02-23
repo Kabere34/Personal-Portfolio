@@ -6,6 +6,10 @@
 body {
   overflow-x: hidden;
 }
+/* .hero-section {
+  margin-bottom: 20px;
+} */
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -17,10 +21,7 @@ body {
   padding: 20px;
   color: white;
 }
-.hero-section {
-  /* background-color: #002c54; */
-  /* padding-bottom: 50px; */
-}
+
 .hero-img {
   max-width: 100%;
   height: 100vh;
@@ -29,14 +30,24 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero-text img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
+.hero-text p,
+h1 {
+  color: white;
+}
 .cover-image {
   width: 400px;
   margin-left: 50px;
+  margin-top: 50px;
 }
 .cover-image img {
   width: 100%;
@@ -46,14 +57,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background-color: rgb(145, 209, 232);
+  /* background: linear-gradient(
+    rgba(116, 108, 95, 0.7),
+    10%,
+    rgba(75, 199, 243, 0.7) */
+  /* ); */
+  background-color: rgb(174, 216, 237);
 }
 .about-text {
   width: 300px;
   margin-left: 20px;
 }
+.about-text span {
+  text-decoration: underline rgb(41, 170, 240);
+}
 .about-details {
-  border: 1px solid rgb(203, 208, 209);
+  /* border: 1px solid rgb(203, 208, 209); */
   margin-top: 20px;
+}
+.projects {
+  background-color: antiquewhite;
+}
+.calculator {
+  width: 400px;
+  height: 300px;
+}
+.calculator img {
+  max-width: 100%;
+  max-height: 100%;
 }
