@@ -6,10 +6,12 @@
 body {
   overflow-x: hidden;
 }
-/* .hero-section {
-  margin-bottom: 20px;
-} */
-
+.hero-section span {
+  color: rgb(41, 170, 240);
+}
+.hero-section p {
+  color: white;
+}
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -26,14 +28,15 @@ body {
   max-width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/christina-wocintechchat-com-MGzmAUxx85E-unsplash.jpg");
+    url("/images/tim-schmidbauer-Ss3Pa3K3mjQ-unsplash.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .hero-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .hero-text img {
   width: 200px;
@@ -52,17 +55,13 @@ h1 {
 .cover-image img {
   width: 100%;
   height: 100%;
+  border-radius: 200px 200px 0 0;
 }
 .about-me {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: linear-gradient(
-    rgba(116, 108, 95, 0.7),
-    10%,
-    rgba(75, 199, 243, 0.7) */
-  /* ); */
-  background-color: rgb(174, 216, 237);
+  justify-content: space-evenly;
 }
 .about-text {
   width: 300px;
@@ -77,12 +76,4 @@ h1 {
 }
 .projects {
   background-color: antiquewhite;
-}
-.calculator {
-  width: 400px;
-  height: 300px;
-}
-.calculator img {
-  max-width: 100%;
-  max-height: 100%;
 }
