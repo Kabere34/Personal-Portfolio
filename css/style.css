@@ -99,7 +99,24 @@ h1 {
   max-width: 100%;
   max-height: 100%;
 }
-
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  width: 500px;
+  clear: both;
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 10px;
+}
+.contact input {
+  width: 100%;
+  clear: both;
+}
+form message {
+  background-color: blue;
+}
 /* .row {
   margin: 20px;
 }
