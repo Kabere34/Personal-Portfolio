@@ -83,6 +83,9 @@ h2 {
   width: 300px;
   margin-left: 20px;
 }
+.about-text h2 {
+  margin-bottom: 10px;
+}
 .about-text span {
   text-decoration: underline rgb(41, 170, 240);
 }
@@ -138,13 +141,3 @@ input[type="button"] {
   margin: 10px 0;
   display: flex;
 }
-
-/* .row {
-  margin: 20px;
-}
-.card {
-  margin: 20px;
-}
-.btn btn-primary {
-  color: blueviolet;
-} */
