@@ -86,6 +86,13 @@ h2 {
 .about-text h2 {
   margin-bottom: 10px;
 }
+.about-details button {
+  margin-top: 20px;
+  background-color: rgb(185, 222, 243);
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
 .about-text span {
   text-decoration: underline rgb(41, 170, 240);
 }
