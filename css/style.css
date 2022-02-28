@@ -7,6 +7,11 @@ body {
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
 }
+@media screen and (max-width: 420px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 #name,
 h1 {
   font-size: xx-large;
@@ -78,11 +83,18 @@ h1 {
   margin-left: 50px;
   margin-top: 50px;
 }
+@media screen and (max-width: 420px) {
+  .cover-image {
+    width: 350px;
+    margin-left: 0;
+  }
+}
 .cover-image img {
   width: 100%;
   height: 100%;
   border-radius: 200px 200px 0 0;
 }
+
 h2 {
   display: flex;
   justify-content: center;
@@ -94,6 +106,12 @@ h2 {
   justify-content: space-evenly;
   margin-bottom: 80px;
   margin-top: 30px;
+}
+@media screen and (max-width: 420px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .about-text {
   width: 300px;
@@ -140,6 +158,12 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 420px) {
+  .project1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .projects p {
   padding: 10px;
   margin-bottom: 20px;
@@ -153,12 +177,19 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 420px) {
+  .project2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .project-img {
   width: 400px;
   margin: 30px;
   padding: 10px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
 .project-img img {
   max-width: 100%;
   max-height: 100%;
