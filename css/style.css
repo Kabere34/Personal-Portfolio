@@ -5,11 +5,19 @@
 }
 body {
   overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+#name {
+  font-size: xx-large;
+  font-family: "Old Standard TT", serif;
 }
 .navbar a {
   text-decoration: none;
   list-style-type: none;
   color: white;
+}
+.navlinks a:hover {
+  color: rgb(41, 170, 240);
 }
 .hero-section span {
   color: rgb(41, 170, 240);
@@ -27,6 +35,9 @@ body {
   justify-content: space-around;
   padding: 20px;
   color: white;
+}
+h1 {
+  padding-bottom: 20px;
 }
 
 .hero-img {
@@ -57,6 +68,9 @@ body {
 .hero-text p,
 h1 {
   color: white;
+}
+.hero-text p {
+  font-size: x-large;
 }
 .cover-image {
   width: 400px;
@@ -131,9 +145,9 @@ h2 {
 .project-img {
   width: 400px;
   margin: 30px;
-  border: 1px solid rgb(41, 170, 240);
+  /* border: 0.5px solid rgb(41, 170, 240); */
   padding: 10px;
-  box-shadow: ;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .project-img img {
   max-width: 100%;
@@ -148,7 +162,7 @@ h2 {
   clear: both;
   border: 1px solid black;
   margin: 20px 0;
-  padding: 10px;
+  padding: 20px;
 }
 .contact input {
   width: 100%;
@@ -165,7 +179,16 @@ input[type="button"] {
   display: flex;
   background-color: rgb(41, 170, 240);
 }
+
 form :nth-child(9) {
   background-color: rgb(163, 215, 245);
   padding: 50px;
+}
+h4 {
+  font-family: "Old Standard TT", serif;
+  font-size: x-large;
+}
+.fa-solid {
+  color: yellow;
+  width: 100px;
 }
